@@ -87,3 +87,7 @@ if __name__ == "__main__":
     a1.deposit(50.0)
     print("After depositing 50 to first account...")
     print("Total balance:", bank.total_balance())
+    #ex 2
+    a1.deposit(-50.0)
+    print("After depositing 50 to first account...")
+    print("Total balance:", bank.total_balance())
